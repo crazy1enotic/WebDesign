@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'BonvenoCFLight';
+    src: url('..//font/BonvenoCF-Light-webfont.eot');
+    src: url('..//font/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('..//font/BonvenoCF-Light-webfont.woff') format('woff'),
+         url('..//font/BonvenoCF-Light-webfont.ttf') format('truetype'),
+         url('..//font/BonvenoCF-Light-webfont.svg#BonvenoCFLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+	background:#436b00 url(..//img/html-bg.jpg) top  repeat-x;
+}
+body{
+	background:url(..//img/body-bg.png) center top no-repeat; 
+    text-shadow:1px 1px 2px rgba(35, 31, 32, .5); 
+}
+img {
+    border: none;
+}
+.clear {
+    clear: both;
+}
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
